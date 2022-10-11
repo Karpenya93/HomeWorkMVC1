@@ -1,0 +1,20 @@
+﻿ <!doctype html>
+ <html>
+ <head>
+        <title>User Registration</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width">
+</head>
+<body>
+    <form method="post" action="~/User/ProceedRezult">
+        <label>Name:</label><br />
+        <input type="text" name = "name" /><br />
+        <label>Age:</label><br />
+        <input type="number" name = "age" /><br />
+        <label>Sex:</label><br />
+        <input type="text" name = "sex" /><br />
+        <input type="submit" asp-action="ProceedRezult" name="button" value="Register"/> 
+        <input type="submit" asp-action="UserBase" name="button" value="Show Users"/> 
+    </form>
+</body>
+</html>
